@@ -1,7 +1,8 @@
 const mongoose = require('mongoose')
 const mongo = require('mongodb')
-const dbUrl = 'mongodb+srv://mongodb:mongodb@cluster0.jwjnh.mongodb.net/mydatabase?retryWrites=true&w=majority'
-const collection = 'test01'
+    //const dbUrl = 'mongodb+srv://mongodb:mongodb@cluster0.jwjnh.mongodb.net/mydatabase?retryWrites=true&w=majority'
+const dbUrl = 'mongodb+srv://iboxconnect:ibox12345678@cluster0.2wpyq.mongodb.net/AppDB?retryWrites=true&w=majority'
+const collection = 'users'
 
 mongoose.connect(dbUrl, {
     useNewUrlParser: true
